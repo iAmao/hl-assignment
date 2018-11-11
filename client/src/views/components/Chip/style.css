@@ -1,0 +1,16 @@
+.hl-chip {
+  color: #333;
+  margin: 1px;
+  min-width: 30px;
+  padding: 5px 10px;
+  font-size: .75rem;
+  width: fit-content;
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  background-color: #EFEFEF;
+}
+
+.hl-chip_clickable {
+  cursor: pointer;
+}

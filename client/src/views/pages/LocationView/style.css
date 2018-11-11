@@ -1,0 +1,26 @@
+.locations-list {
+  height: 350px;
+  display: flex;
+  margin-top: 10px;
+  list-style: none;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  justify-content: space-between;
+}
+
+.locations-list > div {
+  flex: 0 0 auto;
+}
+
+.locations-list ~ hr {
+  width: 50%;
+}
+
+.locations-list ~ .view-apartment-list {
+  justify-content: space-evenly;
+}
+
+.location-apartments-loader {
+  height: 40vh;
+}

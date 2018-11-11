@@ -1,0 +1,49 @@
+.hl__btn {
+    margin: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    font-size: 14px;
+    padding: 0 30px;
+    line-height: 38px;
+    overflow: visible;
+    text-align: center;
+    text-transform: none;
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color,border-color;
+}
+
+.hl__btn:focus {
+  outline: none;
+}
+
+.hl__btn:not(:disabled) {
+    cursor: pointer;
+}
+
+
+.hl__btn_default {
+    color: #222;
+    border: 1px solid #e5e5e5;
+    background-color: transparent;
+}
+
+.hl__btn_default:disabled {
+  color: #999;
+  border-color: #e5e5e5;
+}
+
+
+.hl__btn_primary {
+    color: #FFF;
+    background-color: #24292e;
+}
+
+.hl__btn_primary:disabled {
+  opacity: 0.4;
+}

@@ -1,0 +1,11 @@
+import { generateStateTypes } from '../util';
+
+export default generateStateTypes([
+  'FETCH_APARTMENT',
+  'CLEAR_SEARCH_RESULTS',
+  'FETCH_APARTMENTS_LIST',
+  'FETCH_LOCATIONS_LIST',
+  'FETCH_APARTMENTS_BY_LOCATION',
+  'FETCH_LOCATION_APARTMENTS_LIST',
+  'FILTER_SEARCH_RESULTS'
+]);

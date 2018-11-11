@@ -1,0 +1,13 @@
+.mini-nav {
+  width: 100vw;
+  padding-bottom: 10px;
+  background-color: #24292e;
+}
+
+.mini-nav > div {
+  display: flex;
+  justify-content: flex-end;
+}
+.mini-nav a {
+  color: #FFF;
+}

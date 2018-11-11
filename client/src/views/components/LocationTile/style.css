@@ -1,0 +1,26 @@
+.location_tile {
+  display: flex;
+  padding: 1px;
+  height: 300px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d1d5da;
+}
+.location_tile:hover {
+  margin-top: 0;
+  height: 340px;
+  transition: height 250ms, margin-top 250ms;
+}
+.location_tile > h3 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #d1d5da;
+}
+
+.location_tile__active {
+  margin-top: 0;
+  height: 340px;
+}
